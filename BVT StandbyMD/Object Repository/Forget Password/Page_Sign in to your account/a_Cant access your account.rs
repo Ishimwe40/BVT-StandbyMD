@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Cant access your account</name>
+   <tag></tag>
+   <elementGuidId>1979f476-eac4-439f-a70a-8f77207b6c7b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='cred_forgot_password_link']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>cred_forgot_password_link</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://passwordreset.microsoftonline.com:443/?ru=https%3a%2f%2flogin.microsoftonline.com%2fgecopvautaadb2cqvca001.onmicrosoft.com%2freprocess%3fctx%3drQIIAbWRO2zTUBSGYzspoSoigiVjB8RAlPiVQogUqS12U6d-kFeNgxhunBvnun7EznXTmImtYgEJMRAWYOzYCdhZIoQ6IhYkRiQkxMRIvHTuwnD-4ZxPv3T-_xbFltjqjX6fAxzkQdHcgHeK5SEDipUKZIrLYYcDfmiyw3J4bTX3Yc-rf5mdbr749f1t9qX1ZE7ctKDpjw9BhAEY9DkzODQBw7Al33ORGfoTf4hLpu-eEA9HGI8nVZp2fAt5pfOr7znIgwlDY0hfzI32l8SIoxMN4WT8niDOCOIpmWYZnp-TGegVu-03JHFC5oO9ysSVhXDLbcpy5Cr63YJWb9Zq38ir2lZikogfohj-ITNBBMPZnHpNtDHA8H7oj2GIEZzU4KzRaXebSEONsqyzsayrU6Az2HSV26o9crS6GCtCFxtcA6n3GKZXV21ZF4-MWMJq7CCF20GKsD0ydGkqoSnaFx1Rsv1k72qCxGodCRu2Oeu1GUaND5b-UtyzD7ARNzcU2-AVvVnuCV1O8phT6oKRL6g16ALkrC-_8NDgK0X8oK4HgN-0HL8PHHhkQifhztLEz_QaQ1Wz2dVcKp9aT_1NE-8yy7bFz3nzuPVp99X0UW7x-FlqkaHjDu5FMysqPFBaYic2BJXTdvD-uFPZlgajQjsaB63dgOtailIrV9nnKyu_V64cX0p9vPw_-_8H0&amp;mkt=en-US&amp;hosted=0&amp;device_platform=Windows+10&amp;nca=1&amp;domain_hint=gecopvautaadb2cqvca001.onmicrosoft.com&amp;username=qa3%40globalexcel.com</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Can’t access your account?</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cred_forgot_password_link&quot;)</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='cred_forgot_password_link']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='recover_container']/span/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Can’t access your account?')]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign in'])[1]/following::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Keep me signed in'])[1]/following::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign in with a Microsoft account'])[1]/preceding::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Can’t access your account?']/parent::*</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://passwordreset.microsoftonline.com:443/?ru=https%3a%2f%2flogin.microsoftonline.com%2fgecopvautaadb2cqvca001.onmicrosoft.com%2freprocess%3fctx%3drQIIAbWRO2zTUBSGYzspoSoigiVjB8RAlPiVQogUqS12U6d-kFeNgxhunBvnun7EznXTmImtYgEJMRAWYOzYCdhZIoQ6IhYkRiQkxMRIvHTuwnD-4ZxPv3T-_xbFltjqjX6fAxzkQdHcgHeK5SEDipUKZIrLYYcDfmiyw3J4bTX3Yc-rf5mdbr749f1t9qX1ZE7ctKDpjw9BhAEY9DkzODQBw7Al33ORGfoTf4hLpu-eEA9HGI8nVZp2fAt5pfOr7znIgwlDY0hfzI32l8SIoxMN4WT8niDOCOIpmWYZnp-TGegVu-03JHFC5oO9ysSVhXDLbcpy5Cr63YJWb9Zq38ir2lZikogfohj-ITNBBMPZnHpNtDHA8H7oj2GIEZzU4KzRaXebSEONsqyzsayrU6Az2HSV26o9crS6GCtCFxtcA6n3GKZXV21ZF4-MWMJq7CCF20GKsD0ydGkqoSnaFx1Rsv1k72qCxGodCRu2Oeu1GUaND5b-UtyzD7ARNzcU2-AVvVnuCV1O8phT6oKRL6g16ALkrC-_8NDgK0X8oK4HgN-0HL8PHHhkQifhztLEz_QaQ1Wz2dVcKp9aT_1NE-8yy7bFz3nzuPVp99X0UW7x-FlqkaHjDu5FMysqPFBaYic2BJXTdvD-uFPZlgajQjsaB63dgOtailIrV9nnKyu_V64cX0p9vPw_-_8H0&amp;mkt=en-US&amp;hosted=0&amp;device_platform=Windows+10&amp;nca=1&amp;domain_hint=gecopvautaadb2cqvca001.onmicrosoft.com&amp;username=qa3%40globalexcel.com')]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[4]/div[2]/span/a</value>
+   </webElementXpaths>
+</WebElementEntity>

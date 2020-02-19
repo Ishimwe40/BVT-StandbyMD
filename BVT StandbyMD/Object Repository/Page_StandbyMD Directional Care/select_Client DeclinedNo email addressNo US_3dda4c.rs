@@ -121,6 +121,6 @@ Other
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[12]/div/div/div[2]/div/div/div/div/div/div[2]/select</value>
+      <value>//select</value>
    </webElementXpaths>
 </WebElementEntity>

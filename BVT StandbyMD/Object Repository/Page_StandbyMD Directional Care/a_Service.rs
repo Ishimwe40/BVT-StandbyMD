@@ -152,11 +152,4 @@
       <type>Main</type>
       <value>//li[3]/a</value>
    </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Emergency Room'])[1]/preceding::a[2]</value>
-   </webElementXpaths>
 </WebElementEntity>

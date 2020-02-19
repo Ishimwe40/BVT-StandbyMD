@@ -66,7 +66,7 @@
       <matchCondition>equals</matchCondition>
       <name>maxlength</name>
       <type>Main</type>
-      <value>15</value>
+      <value>19</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

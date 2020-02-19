@@ -18,142 +18,75 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.maximizeWindow()
-
 WebUI.navigateToUrl('https://standbymd-qa3.globalexcel.com/')
 
-WebUI.click(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_Choose your account/button_Client Sign-in'))
+WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_Sign in to your account/input_concat(Sorry but we  re having troubl_5aa0e7'), 
-    'gem3@globalexcel.com')
+WebUI.click(findTestObject('Page_Choose your account/button_Client Sign-in'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_Sign in to your account/input_Redirecting_passwd'), 
-    'axFQsTjMQqya7oMWgLoxVA==')
+WebUI.setText(findTestObject('Page_Sign in to your account/input_concat(Sorry but we  re having troubl_5aa0e7'), 'gem3@globalexcel.com')
 
-WebUI.click(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_Sign in to your account/button_Sign in'))
+WebUI.setEncryptedText(findTestObject('Page_Sign in to your account/input_Redirecting_passwd'), 'axFQsTjMQqya7oMWgLoxVA==')
 
-WebUI.click(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/div_No'))
+WebUI.click(findTestObject('Page_Sign in to your account/button_Sign in'))
 
-WebUI.click(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/input_DOB_DOB'))
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/div_No'))
 
-WebUI.sendKeys(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/input_DOB_DOB'), 
-    '10271957')
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/input_DOB_DOB'))
 
-WebUI.click(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/label_Male'))
+WebUI.sendKeys(findTestObject('Page_StandbyMD Directional Care/input_DOB_DOB'), '01181958')
 
-WebUI.click(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/label_NLP (English Only)'))
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/img_Male_img-responsive'))
 
-WebUI.click(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/button_Next'))
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/label_Symptom Selector'))
 
-WebUI.click(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/button_Next_1'))
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/button_Next'))
 
-WebUI.setText(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/textarea_Describe the members symptoms or p_874eed'), 
-    'Headache\nFever')
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/button_Next_1'))
 
-WebUI.click(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/div_Headache'))
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/div_Back pain'))
 
-WebUI.click(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/div_Fever'))
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/div_Cough'))
 
-WebUI.click(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/button_Next_1_2'))
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/button_Next_1_2'))
 
-WebUI.click(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/button_'))
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/label_No'))
 
-WebUI.click(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/button__1'))
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/label_Less than 3 weeks'))
 
-WebUI.click(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/button__1'))
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/label_Dry cough without phlegm or mucus'))
 
-WebUI.click(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/button_'))
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/button_Next_1_2_3'))
 
-WebUI.click(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/button_'))
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/label_No'))
 
-WebUI.click(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/button__1'))
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/label_No'))
 
-WebUI.click(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/button__1'))
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/label_No'))
 
-WebUI.click(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/button_Next_1_2_3'))
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/label_Yes'))
 
-WebUI.click(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/label_I havent checked my temperature'))
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/div_Yes'))
 
-WebUI.click(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/label_Moderate'))
+WebUI.selectOptionByValue(findTestObject('Page_StandbyMD Directional Care/select_Online VideoChat Consultation'), '2', true)
 
-WebUI.click(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/label_Mild'))
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/span_PJC Jean Coutu Health-Beauty'))
 
-WebUI.click(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/label_In the lower area below my belly button'))
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/button_Next_1_2_3_4'))
 
-WebUI.click(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/label_Upper right'))
+WebUI.setText(findTestObject('Page_StandbyMD Directional Care/input_Claim_LinkClaimNumber'), '123456')
 
-WebUI.click(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/button_Next_1_2_3_4'))
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/input_Claim_bttn-pill bttn-md bttn-primary'))
 
-WebUI.click(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/label_2 to 7 days'))
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/button_Link Claim'))
 
-WebUI.click(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/label_More than 3 months'))
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/span_Submit Request'))
 
-WebUI.click(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/label_From a few minutes to 4 hours'))
+WebUI.setText(findTestObject('Page_StandbyMD Directional Care/input_E-Mail_EMail'), 'laetitia.i@muraho.tech')
 
-WebUI.click(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/div_No'))
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/input_Mobile_btnSendClientSum'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/select_Client DeclinedNo email addressNo US_3dda4c'), 
-    '1', true)
-
-WebUI.setText(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/textarea_Comments_Comments'), 
-    'None')
-
-WebUI.click(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/button_Submit'))
-
-WebUI.click(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/button_Select'))
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/select_Online VideoChat Consultation'), 
-    '2', true)
-
-WebUI.click(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/button_Next_1_2_3_4_5'))
-
-WebUI.setText(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/input_Claim_LinkClaimNumber'), 
-    '123456')
-
-WebUI.click(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/input_Claim_bttn-pill bttn-md bttn-primary'))
-
-WebUI.click(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/button_Link Claim'))
-
-WebUI.click(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/img_Gender_img-responsive'))
-
-WebUI.click(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/label_NLP (English Only)'))
-
-WebUI.click(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/button_Next'))
-
-WebUI.click(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/button_Next_1'))
-
-WebUI.click(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/button_Next_1_2'))
-
-WebUI.click(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/button_Next_1_2_3'))
-
-WebUI.click(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/label_I havent checked my temperature'))
-
-WebUI.click(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/label_Moderate'))
-
-WebUI.click(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/label_Mild'))
-
-WebUI.click(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/label_In the lower area below my belly button'))
-
-WebUI.click(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/label_Upper right'))
-
-WebUI.click(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/button_Next_1_2_3_4'))
-
-WebUI.click(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/label_2 to 7 days'))
-
-WebUI.click(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/label_More than 3 months'))
-
-WebUI.click(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/label_From a few minutes to 4 hours'))
-
-WebUI.click(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/div_Would the member like to speak directly_9506df'))
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/select_Online VideoChat Consultation'), 
-    '2', true)
-
-WebUI.click(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/span_PJC Jean Coutu Health-Beauty'))
-
-WebUI.click(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/button_Next_1_2_3_4_5'))
-
-WebUI.click(findTestObject('Object Repository/Client recommended Talemedicine Available/Page_StandbyMD Directional Care/span_Submit Request'))
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/button_Done'))
 
 WebUI.closeBrowser()
 

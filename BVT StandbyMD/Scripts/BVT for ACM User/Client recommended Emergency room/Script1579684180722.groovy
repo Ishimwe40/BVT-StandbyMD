@@ -20,81 +20,97 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://standbymd-qa3.globalexcel.com/')
 
-WebUI.click(findTestObject('Object Repository/Client recommended- Emergency room/Page_Choose your account/button_Client Sign-in'))
+WebUI.click(findTestObject('Page_Choose your account/button_Client Sign-in'))
 
-WebUI.setText(findTestObject('Object Repository/Client recommended- Emergency room/Page_Sign in to your account/input_concat(Sorry but we  re having troubl_5aa0e7'), 
-    'acm3@globalexcel.com')
+WebUI.setText(findTestObject('Page_Sign in to your account/input_concat(Sorry but we  re having troubl_5aa0e7'), 'acm3@globalexcel.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Client recommended- Emergency room/Page_Sign in to your account/input_Redirecting_passwd'), 
-    'axFQsTjMQqya7oMWgLoxVA==')
+WebUI.setEncryptedText(findTestObject('Page_Sign in to your account/input_Redirecting_passwd'), 'axFQsTjMQqya7oMWgLoxVA==')
 
-WebUI.click(findTestObject('Object Repository/Client recommended- Emergency room/Page_Sign in to your account/button_Sign in'))
+WebUI.click(findTestObject('Page_Sign in to your account/button_Sign in'))
 
-WebUI.click(findTestObject('Object Repository/Client recommended- Emergency room/Page_StandbyMD Directional Care/div_No'))
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/div_No'))
 
-WebUI.setText(findTestObject('Object Repository/Client recommended- Emergency room/Page_StandbyMD Directional Care/input_Member_Member'), 
-    'Laetitia Ishimwe')
+WebUI.setText(findTestObject('Page_StandbyMD Directional Care/input_Member_Member'), 'Laetitia Ishimwe')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Client recommended- Emergency room/Page_StandbyMD Directional Care/select_CF Services (TII)LloydsManulifeOrion_fb81e2'), 
-    '15', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_StandbyMD Directional Care/select_OrionOtherSTARR  CanadaSTARR  US'), 
+    '10', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Client recommended- Emergency room/Page_StandbyMD Directional Care/select_Arch                    Northbridge _472bd8'), 
-    '56', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_StandbyMD Directional Care/select_STARR  Canada'), '20', 
+    true)
 
-WebUI.setText(findTestObject('Object Repository/Client recommended- Emergency room/Page_StandbyMD Directional Care/input_Policy _Policy'), 
-    '5')
+WebUI.setText(findTestObject('Page_StandbyMD Directional Care/input_Policy _Policy'), '5')
 
-WebUI.setText(findTestObject('Object Repository/Client recommended- Emergency room/Page_StandbyMD Directional Care/input_Case _ClaimRef'), 
-    '15')
+WebUI.setText(findTestObject('Page_StandbyMD Directional Care/input_Case _ClaimRef'), '7')
 
-WebUI.setText(findTestObject('Object Repository/Client recommended- Emergency room/Page_StandbyMD Directional Care/input_Phone_Phone'), 
-    '0788509927')
+WebUI.setText(findTestObject('Page_StandbyMD Directional Care/input_Phone_Phone'), '0788509927')
 
-WebUI.setText(findTestObject('Object Repository/Client recommended- Emergency room/Page_StandbyMD Directional Care/input_Email_Email'), 
-    'laetitia.i@muraho.tech')
+WebUI.setText(findTestObject('Page_StandbyMD Directional Care/input_Email_Email'), 'laetitia.i@muraho.tech')
 
-WebUI.click(findTestObject('Object Repository/Client recommended- Emergency room/Page_StandbyMD Directional Care/button_Save'))
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/button_Save'))
 
-WebUI.click(findTestObject('Object Repository/Client recommended- Emergency room/Page_StandbyMD Directional Care/input_DOB_DOB'))
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/input_DOB_DOB'))
 
-WebUI.sendKeys(findTestObject('Object Repository/Client recommended- Emergency room/Page_StandbyMD Directional Care/input_DOB_DOB'), 
-    '10271957')
+WebUI.sendKeys(findTestObject('Page_StandbyMD Directional Care/input_DOB_DOB'), '01181958')
 
-WebUI.click(findTestObject('Object Repository/Client recommended- Emergency room/Page_StandbyMD Directional Care/label_Male'))
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/img_Gender_img-responsive'))
 
-WebUI.click(findTestObject('Object Repository/Client recommended- Emergency room/Page_StandbyMD Directional Care/label_Symptom Selector'))
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/label_Symptom Selector'))
 
-WebUI.click(findTestObject('Object Repository/Client recommended- Emergency room/Page_StandbyMD Directional Care/button_Next'))
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/button_Next'))
 
-WebUI.click(findTestObject('Object Repository/Client recommended- Emergency room/Page_StandbyMD Directional Care/button_Next_1'))
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/button_Next_1'))
 
-WebUI.click(findTestObject('Object Repository/Client recommended- Emergency room/Page_StandbyMD Directional Care/div_Back pain'))
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/div_Headache'))
 
-WebUI.click(findTestObject('Object Repository/Client recommended- Emergency room/Page_StandbyMD Directional Care/div_Chest pain'))
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/div_Fever'))
 
-WebUI.click(findTestObject('Object Repository/Client recommended- Emergency room/Page_StandbyMD Directional Care/div_Cough'))
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/div_Feeling sick'))
 
-WebUI.click(findTestObject('Object Repository/Client recommended- Emergency room/Page_StandbyMD Directional Care/button_Next_1_2'))
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/div_Cough'))
 
-WebUI.click(findTestObject('Object Repository/Client recommended- Emergency room/Page_StandbyMD Directional Care/button_'))
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/button_Next_1_2'))
 
-WebUI.click(findTestObject('Object Repository/Client recommended- Emergency room/Page_StandbyMD Directional Care/button_Next_1_2_3'))
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/button_'))
 
-WebUI.click(findTestObject('Object Repository/Client recommended- Emergency room/Page_StandbyMD Directional Care/label_Severe'))
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/button__1'))
 
-WebUI.click(findTestObject('Object Repository/Client recommended- Emergency room/Page_StandbyMD Directional Care/button_Next_1_2_3_4'))
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/button__1'))
 
-WebUI.click(findTestObject('Object Repository/Client recommended- Emergency room/Page_StandbyMD Directional Care/label_For more than 4 weeks'))
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/button_'))
 
-WebUI.click(findTestObject('Object Repository/Client recommended- Emergency room/Page_StandbyMD Directional Care/label_Yes'))
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/button__1'))
 
-WebUI.click(findTestObject('Object Repository/Client recommended- Emergency room/Page_StandbyMD Directional Care/label_No'))
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/button__1'))
 
-WebUI.click(findTestObject('Object Repository/Client recommended- Emergency room/Page_StandbyMD Directional Care/label_Yes'))
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/button_'))
 
-WebUI.click(findTestObject('Object Repository/Client recommended- Emergency room/Page_StandbyMD Directional Care/button_Select'))
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/button_'))
 
-WebUI.click(findTestObject('Object Repository/Client recommended- Emergency room/Page_StandbyMD Directional Care/span_Submit Request'))
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/button_Next_1_2_3'))
+
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/label_Severe'))
+
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/label_No'))
+
+WebUI.click(findTestObject('Object Repository/Page_StandbyMD Directional Care/label_More than 8 weeks'))
+
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/label_Less than 3 months'))
+
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/label_Less than 3 months'))
+
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/button_Select'))
+
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/a_Contact'))
+
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/a_Service'))
+
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/a_Triage'))
+
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/i_Coordinate Summary_fas fa-sync-alt fa-2x'))
+
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/span_Submit Request'))
+
+WebUI.click(findTestObject('Page_StandbyMD Directional Care/button_Done'))
 
 WebUI.closeBrowser()
 

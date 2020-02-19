@@ -45,13 +45,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div/div/div[2]/div/a[2]/i</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
       <value>//div[2]/div/a[2]/i</value>
    </webElementXpaths>
 </WebElementEntity>

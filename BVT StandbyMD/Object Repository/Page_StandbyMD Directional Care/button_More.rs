@@ -45,7 +45,7 @@
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>facilityCoordination('Emergency Room', '1', 'km', 'SBMD202001140757', 'Hotel-Dieu De Sherbrooke (chus)');</value>
+      <value>facilityCoordination('Emergency Room', '1', 'km', 'SBMD202002190112', 'Hotel-Dieu De Sherbrooke (chus)', 'False');</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -96,7 +96,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tuesday: Open 24 hours'])[1]/following::button[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wednesday: Open 24 hours'])[1]/following::button[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

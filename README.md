@@ -27,3 +27,83 @@ To verify StandbyMD daily behavior for happy flow
  
 #### IT TOOK about 11 minutes to run all 5BVT.
 
+###### Process of installing KATALON
+
+Enter URL: {*}{+}https://www.katalon.com/+*
+
+Click on the Download now button or Free download button
+
+They will ask you to create an account or sign in
+
+Fill in first and last name
+
+Email 
+
+Password
+
+Choose the operating system and click on the download now button
+
+Choose optional saveFile
+
+Click OK button
+
+Zip file downloaded, click extract for a specific folder on katalon.exe setup
+
+Choose where KATALON must be installed (Desktop, Document, Download, etc.)
+
+Click on the KATALON icon where you saved it.
+
+
+##### How it works
+
+For creating a new project:
+
+Click on the File tab
+
+Select New-->Project and then 
+
+Fill in the name of a project 
+
+Select if it is Web, API, Mobile or etc.
+
+On a project, there are different down menu better to remain with blank
+
+File repository you can write the URL of that project or leave it as the blank is a tester choice
+
+Add the location where everything will be saved
+
+You can write a description of a specific project if you want.
+
+Open your project
+
+Create a folder where your test cases will be saved
+
+Start create a test case
+
+###### Steps to run Katalon project to your computer
+
+1.Katalon Integrated with GitHub using git bash
+
+Open the Katalon folder where your Katalon project is saved on your computer.
+
+Copy the folder that is inside the cloned folder
+
+Paste it in the Katalon project folder on your computer
+
+Open Katalon application
+
+Click on File in the taskbar
+
+Open project
+
+Follow the path where your Katalon project is Saved on your computer
+
+Click Ok if you reach the folder that contains the that you have cloned.
+
+The Katalon project is opened
+
+Click on Test cases
+
+Double click on first test case
+
+Click Run

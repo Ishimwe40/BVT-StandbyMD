@@ -4,6 +4,7 @@ To verify StandbyMD daily behavior for happy flow
 
 #### List of build verification test(BVT)
 5 BVT for StandbyMD:
+
 1.Client recommended Emergency Room
  (As a user, I want to get access to the nearest Emergency Rooms
  so that I get a lisenced medical professional to attend to my emergency).

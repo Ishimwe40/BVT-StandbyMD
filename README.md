@@ -107,3 +107,5 @@ Click on Test cases
 Double click on first test case
 
 Click Run
+##### For more information about Katalon
+ https://murahotech.atlassian.net/wiki/spaces/MT/pages/94535734/Global+Excel+StandbyMD+4.5.2+Automation+Documentation
